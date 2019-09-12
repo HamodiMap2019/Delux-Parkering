@@ -1,17 +1,37 @@
+*{
+margin: 0;
+padding: 0;
+font-family: century Gothic;
 
 
+}
 
-.header{background-color:#b5dcb3; height: 10vh}
-.leftcol {background-color: #dddddd; height:80vh; width: 20%; float:left;}
-.content {background-color: #dddddd; height:80vh; width: 60%;float:left;}
-.rightcol {background-color: #dddddd; height:80vh; width: 20%;float:right;}
-.footer{background-color: #dddddd; height:80vh; width: 10vh clear:both}
+header{
+    background-image: url(../Delux-Parkering/rarry.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
 
-ul{list-style-type:none; margin: 0 padding: 0; background-color: #b5dcb3}
+ul{
+    float: right;
+    list-style-type: none;
 
-li a {color:#000000; padding: 8px 16px; text-decoration:none;display:block;}
-li a:hover{background-color:#555555}
-.center{background-image:url(tatoo.jpg) }
+}
+ ul li{
+display: inline-block;
+
+ }
+ ul li a{
+     text-decoration: none;
+     color: #fff;
+     padding: 5px 20px;
+     border:1px solid#fff
+ }
+
+
+  
+
 
     
  
