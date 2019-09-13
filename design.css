@@ -27,6 +27,31 @@ display: inline-block;
      color: #fff;
      padding: 5px 20px;
      border:1px solid#fff
+     
+     
+ }
+ 
+ ul li a:hover{
+     background-color: #fff;
+     color: black;
+
+
+
+ }
+ .logo img{
+     float: left;
+     width: 150px;
+     height: auto;
+
+
+ }
+
+ .main{
+     max-width: 1200px;
+     margin: auto;
+     
+
+
  }
  
   
