@@ -32,15 +32,20 @@ display: inline-block;
  }
  
  ul li a:hover{
-     background-color: #fff;
+     background-color: #ffffff;
      color: black;
+ }
 
-
+ ul li.active a{
 
  }
+
+
+
+ 
  .logo img{
      float: left;
-     width: 150px;
+     width: 100px;
      height: auto;
 
 
@@ -53,7 +58,17 @@ display: inline-block;
 
 
  }
- 
+ .title{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform:translate(-50%,-50%);
+ }
+ .title h1{
+     color: #fff;
+     font-size: 70px;
+     
+  }
   
 
 
