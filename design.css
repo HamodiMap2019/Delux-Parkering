@@ -22,26 +22,12 @@ ul{
 display: inline-block;
 
  }
- ul li a{
-     text-decoration: none;
-     color: #fff;
-     padding: 5px 20px;
-     border:1px solid#fff
-     
-     
- }
+
  
  ul li a:hover{
      background-color: #ffffff;
      color: black;
  }
-
- ul li.active a{
-
- }
-
-
-
  
  .logo img{
      float: left;
@@ -50,6 +36,8 @@ display: inline-block;
 
 
  }
+
+
 
  .main{
      max-width: 1200px;
